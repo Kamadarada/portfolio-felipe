@@ -1,6 +1,6 @@
 import Name from "../name/Name";
 import Bandeiras from "../bandeiras/Bandeiras";
-import Option from "../options/options";
+import Option from "../options/Options";
 import styled from 'styled-components'
 
 

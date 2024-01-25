@@ -6,6 +6,7 @@ import email from '../../images/email.png'
 
 const socialMedia = [github,linkedin,email]
 
+
 const Medias = styled.ul`
     display:flex;
     text-align:center;
