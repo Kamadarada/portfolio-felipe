@@ -5,12 +5,13 @@ import Button from "../button/Button";
 import arrow_down from '../../images/arrow_down.png'
 import logo from '../../images/logo-img.png'
 import pdfFile from '../../../public/CV-Felipe Kamada.pdf'
+import SobreSection from "../SobreSection/SobreSection";
+
 
 const AppBody = styled.div`
     margin-left:20vh;
     margin-top:15vw;
 `
-
 const Image = styled.img`
     width:25px;
 `
@@ -21,7 +22,6 @@ const Logo = styled.img`
     margin-left:90vh;
     margin-top:11vw;
 `
-
 const AppContainer = styled.body`
     display:flex;
 `
@@ -33,8 +33,8 @@ const Body = () => {
         link.download = 'CV - Felipe de Castro Kamada';
         link.click();
     };
-
     return (
+        <>
         <AppContainer>
             <AppBody>
                 <Titulo>Desenvolvedor Web</Titulo>
@@ -43,6 +43,8 @@ const Body = () => {
             </AppBody>
             <Logo src={logo} alt="" />
         </AppContainer>
+        <SobreSection/>
+        </>
     )
 }
 

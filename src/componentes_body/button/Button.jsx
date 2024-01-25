@@ -21,8 +21,8 @@ const Button = styled.button`
     &:hover{
         
         -webkit-box-shadow:0px 0px 89px 0px rgba(29,147,237,0.9);
--moz-box-shadow: 0px 0px 89px 0px rgba(29,147,237,0.9);
-box-shadow: 0px 0px 89px 0px rgba(29,147,237,0.9);
+    -moz-box-shadow: 0px 0px 89px 0px rgba(29,147,237,0.9);
+    box-shadow: 0px 0px 89px 0px rgba(29,147,237,0.9);
     }
 `
 

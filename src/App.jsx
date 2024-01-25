@@ -7,7 +7,13 @@ const AppContainer = styled.div`
   height: 100vh;
   background-image: radial-gradient(#295C9E, #28426e, #1B325B 50%);
   font-family: 'Heebo', sans-serif;
+  overflow-y: auto;
   
+`
+
+
+const Footer = styled.footer`
+  margin-top:30vh;
 `
 
 function App() {
@@ -15,6 +21,7 @@ function App() {
     <AppContainer>
       <Header/>
       <Body/>
+      <Footer/>
     </AppContainer>
   )
 }
