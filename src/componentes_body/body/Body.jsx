@@ -6,6 +6,8 @@ import arrow_down from '../../images/arrow_down.png'
 import logo from '../../images/logo-img.png'
 import pdfFile from '../../../public/CV-Felipe Kamada.pdf'
 import SobreSection from "../SobreSection/SobreSection";
+import Habilidades from "../habilidades/Habilidades";
+import Projetos from "../projetos/Projetos";
 
 
 const AppBody = styled.div`
@@ -44,6 +46,8 @@ const Body = () => {
             <Logo src={logo} alt="" />
         </AppContainer>
         <SobreSection/>
+        <Habilidades/>
+        <Projetos/>
         </>
     )
 }

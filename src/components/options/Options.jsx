@@ -5,7 +5,7 @@ const opcoes = ['SOBRE', 'HABILIDADES', 'PROJETOS', 'CONTATO']
 const Choices = styled.ul`
     display:flex;
     text-align:center;
-    margin-left:30vh;
+    margin-left:25vh;
  
 `
 const Choice = styled.h3`
