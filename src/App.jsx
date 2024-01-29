@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Header from './components/header/Header'
 import Body from './componentes_body/body/Body'
+import Footer from './components/footer/Footer'
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -12,16 +13,13 @@ const AppContainer = styled.div`
 `
 
 
-const Footer = styled.footer`
-  margin-top:30vh;
-`
 
 function App() {
   return (
     <AppContainer>
       <Header/>
       <Body/>
-      <Footer/>
+      <Footer> UX/UI - Kauan Boaro  Dev - Felipe Kamada</Footer>
     </AppContainer>
   )
 }

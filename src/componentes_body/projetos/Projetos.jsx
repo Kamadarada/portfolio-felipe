@@ -60,8 +60,9 @@ const Project = styled.h4`
     min-width:100px;
     transition:0.1s;
 
+
     &:hover {
-    transform: scale(1.2); /* Aumenta a escala em 20% */
+    transform: scale(1.1); /* Aumenta a escala em 20% */
     }
 `
 const Img = styled.img`

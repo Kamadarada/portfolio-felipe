@@ -56,7 +56,6 @@ const Foto = styled.img`
 
   &:hover {
     transform: rotate(360deg); 
-
   }
    
 `

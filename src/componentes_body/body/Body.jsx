@@ -8,7 +8,7 @@ import pdfFile from '../../../public/CV-Felipe Kamada.pdf'
 import SobreSection from "../SobreSection/SobreSection";
 import Habilidades from "../habilidades/Habilidades";
 import Projetos from "../projetos/Projetos";
-
+import Contato from "../contato/Contato";
 
 const AppBody = styled.div`
     margin-left:20vh;
@@ -48,6 +48,7 @@ const Body = () => {
         <SobreSection/>
         <Habilidades/>
         <Projetos/>
+        <Contato/>
         </>
     )
 }

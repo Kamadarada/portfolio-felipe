@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 const opcoes = ['SOBRE', 'HABILIDADES', 'PROJETOS', 'CONTATO']
 
 const Choices = styled.ul`
