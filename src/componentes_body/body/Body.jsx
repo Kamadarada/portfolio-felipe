@@ -4,7 +4,7 @@ import Body_name from "../body_name/body_name";
 import Button from "../button/Button";
 import arrow_down from '../../images/arrow_down.png'
 import logo from '../../images/logo-img.png'
-import pdfFile from '../../../public/CV-Felipe Kamada.pdf'
+import pdfFile from '../../../public/CV.pdf'
 import SobreSection from "../SobreSection/SobreSection";
 import Habilidades from "../habilidades/Habilidades";
 import Projetos from "../projetos/Projetos";
